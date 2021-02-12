@@ -91,9 +91,9 @@ class Kethabi : Plugin<Project> {
     }
 
     private fun Project.addDependencies() {
-        project.dependencies.add("implementation", "com.github.komputing.kethereum:rpc:$kethereum_version")
-        project.dependencies.add("implementation", "com.github.komputing.kethereum:model:$kethereum_version")
-        project.dependencies.add("implementation", "com.github.komputing.kethereum:types:$kethereum_version")
+        project.dependencies.add("implementation", "com.github.fullkomnun.kethereum:rpc:$kethereum_version")
+        project.dependencies.add("implementation", "com.github.fullkomnun.kethereum:model:$kethereum_version")
+        project.dependencies.add("implementation", "com.github.fullkomnun.kethereum:types:$kethereum_version")
         project.dependencies.add("implementation", "com.github.komputing:khex:1.0.0-RC6")
     }
 }
