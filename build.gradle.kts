@@ -40,7 +40,7 @@ dependencies {
 
     implementation("com.github.fullkomnun.kethereum:abi:$kethereumVersion")
     implementation("com.github.fullkomnun.kethereum:abi_codegen:$kethereumVersion")
-    api("com.ionspin.kotlin:bignum-jvm:0.2.8-SNAPSHOT")
+    implementation("com.ionspin.kotlin:bignum-jvm:0.2.8-SNAPSHOT")
 
     testImplementation("org.assertj:assertj-core:3.18.1")
     testImplementation("org.junit.jupiter:junit-jupiter-api:5.7.0")
