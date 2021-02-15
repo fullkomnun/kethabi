@@ -18,9 +18,6 @@ buildscript {
 repositories {
     jcenter()
     maven("https://www.jitpack.io")
-    maven {
-        url = uri("https://oss.sonatype.org/content/repositories/snapshots")
-    }
 }
 plugins {
     id("org.jetbrains.kotlin.jvm") version "1.4.21"
@@ -40,7 +37,7 @@ dependencies {
 
     implementation("com.github.fullkomnun.kethereum:abi:$kethereumVersion")
     implementation("com.github.fullkomnun.kethereum:abi_codegen:$kethereumVersion")
-    implementation("com.ionspin.kotlin:bignum-jvm:0.2.8-SNAPSHOT")
+    implementation("com.ionspin.kotlin:bignum-jvm:0.2.8")
 
     testImplementation("org.assertj:assertj-core:3.18.1")
     testImplementation("org.junit.jupiter:junit-jupiter-api:5.7.0")
